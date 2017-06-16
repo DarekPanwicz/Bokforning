@@ -13,7 +13,7 @@ public class Main {
 //        • od 85.528 podatek wynosi 14.839,02 zł + 32% nadwyżki ponad 85.528,0
 //
         double podatek;
-        double zmiennaMinus= -556.02;
+        double zmiennaMinus= 556.02;
         double zmienna1= 85.528;
         System.out.println("Podaj informacje o swoim podatku ");
 
@@ -23,14 +23,20 @@ public class Main {
 
         if (zmienna1 <= dochod){
 
-            double cena1= 18% + zmiennaMinus;
-            double final1= dochod+cena1;
+            double cena1= (dochod *0.18);
+            double final1= cena1 - zmiennaMinus;
+            double final1x= dochod-final1;
 
+            System.out.println("Wartosc ktora zostaje to "+ final1x);
             System.out.println("Wartosc podatku to "+ final1);
 
 
 
         }
+
+
+
+
 
 
 
