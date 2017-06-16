@@ -10,7 +10,7 @@ public class Main {
 //        ma pobierać od użytkownika dochód i po obliczeniu wypisywać na ekranie
 //        należny podatek. Podatek obliczany jest wg. następujących reguł:
 //        • do 85.528 podatek wynosi 18% podstawy minus 556,02 PLN,
-//        • od 85.528 podatek wynosi 14.839,02 zł + 32% nadwyżki ponad 85.528,00
+//        • od 85.528 podatek wynosi 14.839,02 zł + 32% nadwyżki ponad 85.528,0
 //
         double podatek;
         double zmiennaMinus= -556.02;
