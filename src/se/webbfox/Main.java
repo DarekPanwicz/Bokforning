@@ -31,6 +31,9 @@ public class Main {
             System.out.println("Wartosc podatku to "+ final1);
 
 
+            //Nadal nie dziala obliczenie pierwszego podatku
+
+
 
         }
 
